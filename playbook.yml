@@ -1,0 +1,5 @@
+- name: SucklessOrg
+  hosts: all
+  tasks:
+    - name: Execute command date
+      command: touch toto.md
